@@ -1,7 +1,7 @@
 import axios from "axios";
 import store from "./store";
 
-// axios.defaults.baseURL = 'http://127.0.0.1:5000/'
+// axios.defaults.baseURL = 'http://127.0.0.1:5008/'
 axios.defaults.baseURL = "https://vemapi.leonteqsecurity.com/";
 
 axios.interceptors.request.use(async (config) => {
