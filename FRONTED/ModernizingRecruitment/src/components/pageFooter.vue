@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="footerContainer">
       <div>
-        <img src="../assets/images/leonteqsecuritylogo.jpg" alt="" />
+        <img src="../assets/images/vemona.png" alt="" />
         <div class="schoolmotto">
           <span>Education for positve change</span>
         </div>
