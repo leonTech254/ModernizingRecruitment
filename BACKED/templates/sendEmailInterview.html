@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEMONA PRI - Interview Invitation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 98%;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    .header {
+      text-align: center;
+      padding-bottom: 2px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .content {
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+
+    .invitation {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    .invitation-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .invitation-details {
+      margin-bottom: 20px;
+    }
+
+    .invitation-details strong {
+      font-weight: bold;
+    }
+
+    .invitation-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+   
+    <div class="content">
+        <div class="header">
+            <img class="logo" src="https://resources.leonteqsecurity.com/Images/leonteqsecuritylogo.jpg" alt="LEONTEQSECURITY Logo">
+            <h1>VEMONA PRIMARY SCHOOL</h1>
+          </div>      
+      <div class="invitation">
+        <h2 class="invitation-title">Interview Invitation</h2>
+        <p class="invitation-details">
+          Dear {{ candidate_name }},
+        </p>
+        <p class="invitation-details">
+          We are pleased to invite you for an interview at VEMONA PRIMARY SCHOOL. Your application has been reviewed
+          and we believe you would be a great fit for the position.
+        </p>
+        <p class="invitation-details">
+          Interview Details:
+        </p>
+        <ul class="invitation-details">
+          <li><strong>Date:</strong> {{ interview_date }}</li>
+          <li><strong>Time:</strong> {{ interview_time }}</li>
+          <li><strong>Location:</strong> {{ interview_location }}</li>
+        </ul>
+        <p class="invitation-details">
+          Please come prepared and bring any necessary documents or materials with you. If you have any questions
+          or need to reschedule, please contact us at {{ contact_email }}.
+        </p>
+        <p class="invitation-details">
+          We look forward to meeting you and discussing your qualifications further.
+        </p>
+        <p class="invitation-details">
+          Best regards,
+          <br>
+          {{ your_name }}
+          <br>
+          Vemona Primary
+        </p>
+        <a class="invitation-button" href="{{ confirmation_link }}">Confirm Interview</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

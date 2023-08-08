@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Luckiest+Guy&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex:wrap;
+    background-color:var(--main-theme);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    font-size: medium;
+    height: 5rem;
+}
+nav ul
+{
+    list-style: none;   
+}
+nav ul li
+{
+    position: relative;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+    display: flex;
+  
+}
+
+.SchoolLogo
+{
+    font-family: 'Gravitas One', cursive;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+
+nav ul li a
+{
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row-reverse;
+}
+nav .logo
+{
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 1;
+    padding-left: 4px;
+    font-family: 'Lobster', cursive;
+    color: var(--text-color-red);
+    
+}
+nav .icon-toogle
+{
+    display: none;
+}
+nav .sub-menu
+{
+    display: none;
+}
+.toogleMenu
+{
+    font-size: 40px;
+}
+nav ul li:hover .sub-menu
+{
+    display: block;
+    text-align: center;
+}
+
+.menuIconToggle
+{
+font-family: 'Gravitas One', cursive;
+font-family: 'Luckiest Guy', cursive;
+}
+
+
+
+/* mobile application */
+
+
+@media (max-width: 740px) {
+    #mainMenu
+    {
+        /* background-color: var(--color-navy); */
+        transition:all 1.5s ease-in-out;
+        position: absolute;
+        background-color:var(--main-theme);
+        width: 100%;
+        top: 6.0rem;
+
+        
+    }
+    .mainMenu
+    {
+        display: none;
+    }
+    .mainMenu
+    {
+        display: block;
+        margin-top:-30rem;
+        overflow: hidden;
+    }
+    
+
+
+    nav .icon-toogle
+    {
+        display: block;
+        padding-right:10px;
+
+
+
+    }
+    nav .icon-toogle:active
+    {
+    transform: scale(.9);
+    cursor: pointer;
+    }
+    nav{
+    flex-direction: column;
+    justify-content:start;
+    height: 6rem;
+    justify-content: center;
+    margin-top: -0.5rem;
+    }
+    nav ul
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        
+        text-align: center;
+    }
+    nav ul li
+    {
+        display: block;
+       border-bottom: 1px solid var(--color-white);
+    
+
+    }
+    nav ul li a
+    {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+   
+   nav .sub-menu
+    {
+        /* background-color: var(--color-green); */
+        border-radius: .5rem;
+        gap: .5rem;
+        padding: 4px;
+        text-transform: capitalize;
+        border: 2px inset var(--color-white);
+        text-align: left;
+        
+    }
+    nav .sub-menu li
+    {
+        border: none;
+        padding: 0;
+        margin: 0;
+
+
+        
+    }
+   
+   
+    .logo
+    {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--color-black);
+    }
+
+.showToggle
+{
+    display: none !important;
+}
+
+
+
+  }
+
+
+
+  /* Desktop application */
+  @media (min-width: 740px) {
+    nav
+    {
+    align-items: center;
+
+    }
+
+#mainMenu
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 4px;
+    margin-right: 2rem;
+}
+#mainMenu a 
+{
+        padding: 8px;
+        display: block;
+        font-size: small;
+
+}
+
+
+
+
+  }
+
+  /* manage links */
+
+nav a.router-link-exact-active {
+    color: var(--color-white);
+    border-bottom:3px solid var(--text-color-red) !important;
+}
+
+nav a.router-link-exact-active:hover {
+    /* background-color: var(--color-orange) !important; */
+    background-color: transparent;
+
+}
+nav a:hover
+{
+    background-color: #CCC;
+    color: #000;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+/* nav a:first-of-type {
+    border: 0 ;
+} */
