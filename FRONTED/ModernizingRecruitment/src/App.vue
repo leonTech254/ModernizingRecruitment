@@ -24,6 +24,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <li>
           <RouterLink id="toRoute" to="/contact-us">contacts<span class="material-icons">call</span></RouterLink>
         </li>
+        <li>
+          <RouterLink id="toRoute" :to="{name:'admin-login'}">Account<span class="material-icons">person</span></RouterLink>
+        </li>
       </ul>
     </nav>
     <div class="empty"></div>

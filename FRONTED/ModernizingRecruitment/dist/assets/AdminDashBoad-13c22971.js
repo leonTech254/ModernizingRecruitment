@@ -1,4 +1,4 @@
-import{_ as h,i as f,o as l,c as a,a as e,j as c,v as _,p as b,g as v,F as k,l as I,w as A,f as D,e as m,r as g,d as u,$}from"./index-2ceb0d9d.js";import{S as y}from"./sweetalert2.all-3f0dc487.js";const C={data(){return{jobTitle:null,jobLocation:null,jobDescription:null}},methods:{addJob(){const t={jobTitle:this.jobTitle,jobLocation:this.jobLocation,jobDescription:this.jobDescription};f.post("/jobs/add",t).then(()=>{this.showAlert()}).catch(o=>{console.error(o)})},showAlert(){y.fire({title:"Job Added Successfully",html:`
+import{_ as h,i as f,o as l,c as a,a as e,j as c,v as _,p as b,g as v,F as k,l as I,w as A,f as D,e as m,r as g,d as u,$}from"./index-0e60d74d.js";import{S as y}from"./sweetalert2.all-c4a8c568.js";const C={data(){return{jobTitle:null,jobLocation:null,jobDescription:null}},methods:{addJob(){const t={jobTitle:this.jobTitle,jobLocation:this.jobLocation,jobDescription:this.jobDescription};f.post("/jobs/add",t).then(()=>{this.showAlert()}).catch(o=>{console.error(o)})},showAlert(){y.fire({title:"Job Added Successfully",html:`
             <div>
               <ul>
                 <li><b>Job Title:</b> ${this.jobTitle}</li>

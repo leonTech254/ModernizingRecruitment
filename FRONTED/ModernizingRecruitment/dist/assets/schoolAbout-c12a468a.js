@@ -1,4 +1,4 @@
-import{_ as p,t as v,b as f,r as a,o as d,c as h,a as e,d as s,e as i,f as l,p as g,g as b,h as w}from"./index-2ceb0d9d.js";const S={data(){return{schoolEmail:"venomeprimary@gmail.com",phone:"+254720284278",schoolAbouts:{history:`  Vemona Primary School is a private school located in a Kiambu in an estate called Pickens
+import{_ as p,t as v,b as f,r as a,o as d,c as h,a as e,d as s,e as i,f as l,p as g,g as b,h as w}from"./index-0e60d74d.js";const S={data(){return{schoolEmail:"venomeprimary@gmail.com",phone:"+254720284278",schoolAbouts:{history:`  Vemona Primary School is a private school located in a Kiambu in an estate called Pickens
 Garden Estate with a high rate of unemployment. The school has a diverse student population,
 with students from different socio-economic backgrounds. Due to limited resources, the school
 often struggles to attract and retain qualified teachers, which has a direct impact on the quality of
